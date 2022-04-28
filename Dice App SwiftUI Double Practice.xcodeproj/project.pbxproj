@@ -19,6 +19,7 @@
 		14093DEA281A29FA00F14B7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14093DEC281A29FB00F14B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14093DEF281A29FB00F14B7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1452770C281A2C1F00AA94C6 /* Dice-App-SwiftUI-Double-Practice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dice-App-SwiftUI-Double-Practice-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +52,10 @@
 		14093DE7281A29FA00F14B7B /* Dice App SwiftUI Double Practice */ = {
 			isa = PBXGroup;
 			children = (
+				1452770C281A2C1F00AA94C6 /* Dice-App-SwiftUI-Double-Practice-Info.plist */,
 				14093DE8281A29FA00F14B7B /* Dice_App_SwiftUI_Double_PracticeApp.swift */,
-				14093DEA281A29FA00F14B7B /* ContentView.swift */,
-				14093DEC281A29FB00F14B7B /* Assets.xcassets */,
-				14093DEE281A29FB00F14B7B /* Preview Content */,
+				1452770E281A2CC500AA94C6 /* View */,
+				1452770D281A2CB200AA94C6 /* Supporting Files */,
 			);
 			path = "Dice App SwiftUI Double Practice";
 			sourceTree = "<group>";
@@ -65,6 +66,23 @@
 				14093DEF281A29FB00F14B7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1452770D281A2CB200AA94C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14093DEC281A29FB00F14B7B /* Assets.xcassets */,
+				14093DEE281A29FB00F14B7B /* Preview Content */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1452770E281A2CC500AA94C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14093DEA281A29FA00F14B7B /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,12 +284,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dice App SwiftUI Double Practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 873GG57D8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-App-SwiftUI-Double-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,12 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dice App SwiftUI Double Practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 873GG57D8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-App-SwiftUI-Double-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
